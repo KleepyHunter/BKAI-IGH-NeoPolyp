@@ -5,8 +5,8 @@ import torch.optim as optim
 import time
 import wandb
 
-from util import save_checkpoint, load_checkpoint, save_loss, save_plot, time_since
-from logger import setup_logger
+from utils.util import save_checkpoint, load_checkpoint, save_loss, save_plot, time_since
+from utils.logger import setup_logger
 from tqdm import tqdm
 
 class UNetTrainer:
